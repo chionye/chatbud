@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stripes{
+  background: repeating-linear-gradient(45deg,
+        #606dbc,
+        #606dbc 10px,
+        #465298 10px,
+        #465298 20px);
+}
+
+a, h1{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.highlight{
+  background: -webkit-linear-gradient(#9C6CE8, #0d1a66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
